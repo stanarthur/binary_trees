@@ -65,6 +65,11 @@ bst_t *bst_delete(bst_t *root, bst_t *node);
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
 bst_t *bst_remove(bst_t *root, int value);
 
+/* prototype functions for task 30 */
+size_t binary_tree_height(const binary_tree_t *tree);
+int btia_helper(const binary_tree_t *tree, int min, int max);
+int binary_tree_is_avl(const binary_tree_t *tree);
+
 /* Helper functions*/
 int _pow_recursion(int x, int y);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);

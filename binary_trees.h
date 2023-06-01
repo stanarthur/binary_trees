@@ -4,6 +4,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <stdio.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -61,6 +62,7 @@ bst_t *bst_remove(bst_t *root, int value);
 avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
 avl_t *array_to_avl(int *array, size_t size);
+avl_t *avl_remove(avl_t *root, int value);
 
 /* prototype functions for task 28 */
 bst_t *inorder_successor(bst_t *root);

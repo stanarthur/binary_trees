@@ -59,6 +59,7 @@ bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
 avl_t *avl_insert(avl_t **tree, int value);
+avl_t *array_to_avl(int *array, size_t size);
 
 /* prototype functions for task 28 */
 bst_t *inorder_successor(bst_t *root);
@@ -74,8 +75,8 @@ int binary_tree_is_avl(const binary_tree_t *tree);
 /* prototype functions for task 31 */
 size_t height(const binary_tree_t *tree);
 int balance(const binary_tree_t *tree);
-avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent,
-		avl_t **new, int value);
+avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent, avl_t **new,
+							int value);
 avl_t *avl_insert(avl_t **tree, int value);
 
 /* Helper functions*/

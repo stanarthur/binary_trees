@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * inorder_successor - Finds the inorder successor of a given node in a binary search tree.
+ * inorder_successor - Finds the inorder successor of a given node
+ *                      in a binary search tree.
  * @root: A pointer to the root node of the binary search tree.
  *
  * Return: A pointer to the inorder successor node.

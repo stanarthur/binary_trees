@@ -72,12 +72,7 @@ size_t binary_tree_height(const binary_tree_t *tree);
 int btia_helper(const binary_tree_t *tree, int min, int max);
 int binary_tree_is_avl(const binary_tree_t *tree);
 
-/* prototype functions for task 31 */
-size_t height(const binary_tree_t *tree);
-int balance(const binary_tree_t *tree);
-avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent, avl_t **new,
-							int value);
-avl_t *avl_insert(avl_t **tree, int value);
+
 
 /* Helper functions*/
 int _pow_recursion(int x, int y);

@@ -63,6 +63,7 @@ avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
 avl_t *array_to_avl(int *array, size_t size);
 avl_t *avl_remove(avl_t *root, int value);
+avl_t *sorted_array_to_avl(int *array, size_t size);
 
 /* prototype functions for task 28 */
 bst_t *inorder_successor(bst_t *root);
@@ -87,5 +88,6 @@ int _pow_recursion(int x, int y);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 int btib_helper(const binary_tree_t *tree, int min, int max);
+void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 
 #endif /* _BINARY_TREES_H_ */
